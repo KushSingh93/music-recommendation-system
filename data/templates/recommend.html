@@ -1,0 +1,10 @@
+<html>
+<body>
+    <h2>Recommended Songs</h2>
+    <ul>
+        {% for song in recommendations %}
+            <li>Song ID: {{ song.song_id }}, Artist: {{ song.artist }}, Year: {{ song.year }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
